@@ -1,6 +1,7 @@
 package banco.storage;
 
 import banco.model.Operacion;
+import com.iesrodeira.datastores.IIndexStorage;
 import com.iesrodeira.datastores.IndexStorage;
 
 /**
@@ -9,7 +10,7 @@ import com.iesrodeira.datastores.IndexStorage;
  */
 public class OperacionsDAO {
 
-    private IndexStorage<Integer, Operacion> storage;
+    private IIndexStorage<Integer, Operacion> storage;
     private int nextId;
 
     public OperacionsDAO() {
@@ -28,22 +29,6 @@ public class OperacionsDAO {
 
     public Operacion getById(int id) {
         return storage.get(id);
-    }
-
-    public void update(int id, Operacion operacion) {
-        if (operacion == null) {
-            throw new IllegalArgumentException("Operación nula");
-        }
-
-        if (storage.get(id) == null) {
-            throw new IllegalArgumentException("A operación non existe");
-        }
-
-        storage.set(id, operacion);
-    }
-
-    public void remove(int id) {
-        storage.remove(id);
     }
 
     public Operacion[] list() {

@@ -1,6 +1,7 @@
 package banco.storage;
 
 import banco.model.Conta;
+import com.iesrodeira.datastores.IIndexStorage;
 import com.iesrodeira.datastores.IndexStorage;
 
 /**
@@ -9,7 +10,7 @@ import com.iesrodeira.datastores.IndexStorage;
  */
 public class ContasDAO {
 
-    private IndexStorage<Integer, Conta> storage;
+    private IIndexStorage<Integer, Conta> storage;
 
     public ContasDAO() {
         storage = new IndexStorage<>();

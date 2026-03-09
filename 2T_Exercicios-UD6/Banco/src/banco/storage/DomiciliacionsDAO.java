@@ -1,6 +1,7 @@
 package banco.storage;
 
 import banco.model.Domiciliacion;
+import com.iesrodeira.datastores.IIndexStorage;
 import com.iesrodeira.datastores.IndexStorage;
 
 /**
@@ -9,7 +10,7 @@ import com.iesrodeira.datastores.IndexStorage;
  */
 public class DomiciliacionsDAO {
 
-    private IndexStorage<String, Domiciliacion> storage;
+    private IIndexStorage<String, Domiciliacion> storage;
 
     public DomiciliacionsDAO() {
         storage = new IndexStorage<>();
