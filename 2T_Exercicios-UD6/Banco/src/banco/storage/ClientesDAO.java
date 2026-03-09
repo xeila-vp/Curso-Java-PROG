@@ -1,11 +1,12 @@
 package banco.storage;
 
 import banco.model.Cliente;
+import com.iesrodeira.datastores.IIndexStorage;
 import com.iesrodeira.datastores.IndexStorage;
 
 public class ClientesDAO {
 
-    private IndexStorage<String, Cliente> storage;
+    private IIndexStorage<String, Cliente> storage;
 
     public ClientesDAO() {
         storage = new IndexStorage<>();
