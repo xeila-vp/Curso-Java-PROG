@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/Users/Usuario/OneDrive/DAW%202025/PROG/UD6/Banco/src/banco/model/Conta.java</file>
+            <file>file:/C:/Users/Usuario/OneDrive/DAW%202025/PROG/UD6/Banco/src/banco/model/Cliente.java</file>
+            <file>file:/C:/Users/Usuario/OneDrive/DAW%202025/PROG/UD6/Banco/src/banco/model/TipoConta.java</file>
+            <file>file:/C:/Users/Usuario/OneDrive/DAW%202025/PROG/UD6/Banco/src/banco/model/Domiciliacion.java</file>
+            <file>file:/C:/Users/Usuario/OneDrive/DAW%202025/PROG/UD6/Banco/src/banco/model/TipoCliente.java</file>
+            <file>file:/C:/Users/Usuario/OneDrive/DAW%202025/PROG/UD6/Banco/src/com/iesrodeira/utils/dniValidator.java</file>
+            <file>file:/C:/Users/Usuario/OneDrive/DAW%202025/PROG/UD6/Banco/src/banco/model/Operacion.java</file>
+            <file>file:/C:/Users/Usuario/OneDrive/DAW%202025/PROG/UD6/Banco/src/banco/storage/OperacionsDAO.java</file>
+            <file>file:/C:/Users/Usuario/OneDrive/DAW%202025/PROG/UD6/Banco/src/banco/storage/DomiciliacionDAO.java</file>
+            <file>file:/C:/Users/Usuario/OneDrive/DAW%202025/PROG/UD6/Banco/src/banco/forms/ClienteForm.java</file>
+            <file>file:/C:/Users/Usuario/OneDrive/DAW%202025/PROG/UD6/Banco/src/banco/forms/ContaForm.java</file>
+            <file>file:/C:/Users/Usuario/OneDrive/DAW%202025/PROG/UD6/Banco/src/banco/storage/ClientesDAO.java</file>
+            <file>file:/C:/Users/Usuario/OneDrive/DAW%202025/PROG/UD6/Banco/src/banco/storage/ContasDAO.java</file>
+            <file>file:/C:/Users/Usuario/OneDrive/DAW%202025/PROG/UD6/Banco/src/com/iesrodeira/utils/numContaValidator.java</file>
+        </group>
+    </open-files>
+</project-private>
